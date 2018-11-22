@@ -16,11 +16,11 @@ attr_accessor :name
     post.author = self
   end
   def posts
-    Post.all.select do |x| 
+    Post.array.select do |x| 
       post.author == self
     end
   end
    def self.post_count
-    Post.all.count
+    Post.array.count
   end
 end
