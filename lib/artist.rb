@@ -16,7 +16,9 @@ class Artist
     song.artist = self
   end
    def songs
-    Song.all.select {|song| song.artist == self}
+    Song.all.select do |x| 
+      song.artist == self
+    end
   end
    def self.song_count
     Song.all.count
