@@ -6,6 +6,9 @@ attr_accessor :title, :author
     @title = title
     @@array << self
   end
+  def self.all
+    @@all
+  end
    def self.array
     @@array
   end
