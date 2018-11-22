@@ -9,6 +9,9 @@ attr_accessor :title, :author
   def self.all
     @@all
   end
+  def self.all
+    @@all
+  end
    def self.array
     @@array
   end
