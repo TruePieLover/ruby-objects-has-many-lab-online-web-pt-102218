@@ -1,7 +1,7 @@
 class Author
 attr_accessor :name
    array = []
-   @@all = array
+   @@all = @@array
    def initialize(name)
     @name = name
     @@array << self
