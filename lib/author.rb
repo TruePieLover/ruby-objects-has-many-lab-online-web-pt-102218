@@ -16,7 +16,9 @@ attr_accessor :name
     post.author = self
   end
   def posts
-    Post.all.select {|post| post.author == self}
+    Post.all.select do |x| 
+      post.author == self
+      emd
   end
    def self.post_count
     Post.all.count
