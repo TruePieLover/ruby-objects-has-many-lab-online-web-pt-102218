@@ -5,7 +5,7 @@ class Song
     @name = name
     @@array << self
   end
-   def self.all
+   def self.array
     @@all
   end
    def artist_name
