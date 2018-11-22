@@ -1,6 +1,7 @@
 class Song
  attr_accessor :name, :artist
-   @@array = []
+     array = []
+   @@all = @@array
   def initialize(name)
     @name = name
     @@array << self
