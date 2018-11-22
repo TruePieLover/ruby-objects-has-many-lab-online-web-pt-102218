@@ -1,6 +1,6 @@
 class Artist
 attr_accessor :name
-     array = []
+  array = []
    @@all = @@array
   def initialize(name)
     @name = name
