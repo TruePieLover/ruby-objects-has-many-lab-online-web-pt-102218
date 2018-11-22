@@ -8,8 +8,8 @@ attr_accessor :title, :author
    def self.array
     @@array
   end
-   def author_name
-    if self.author
+ def author_name
+  if self.author
       self.author.name
     else
       return nil
