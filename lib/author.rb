@@ -5,7 +5,7 @@ attr_accessor :name
     @name = name
     @@array << self
   end
-   def self.all
+   def self.array
     @@array
   end
   def add_post(post)
