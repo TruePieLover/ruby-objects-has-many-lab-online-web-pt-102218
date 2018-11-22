@@ -15,7 +15,7 @@ class Author
     post = Post.new(title)
     post.author = self
   end
-   def posts
+  def posts
     Post.all.select do |x| x.author == self
   end
   end
