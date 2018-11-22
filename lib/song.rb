@@ -12,7 +12,7 @@ class Song
     if self.artist
       self.artist.name
     else
-      break
+      return nil
     end
   end
 end
