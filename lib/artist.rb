@@ -1,7 +1,7 @@
 class Artist
-  attr_accessor :name
+attr_accessor :name
    @@array = []
-   def initialize(name)
+  def initialize(name)
     @name = name
     @@array  << self
   end
