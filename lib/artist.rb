@@ -16,10 +16,11 @@ class Artist
     song.artist = self
   end
   def songs
-    Song.all.select do |x| song.artist == self
+    Song.all.select do |x| 
+        song.artist == self
   end
   end
-   def self.song_count
+  def self.song_count
     Song.all.count
   end
 end
